@@ -3,7 +3,7 @@
 
 ## Login and Logout
 
-```
+```terminal
 $ docker login
 
 or 
@@ -12,7 +12,7 @@ $ docker login -u <username> -p <password>
 ```
 
 
-```
+```terminal
 $ docker logout
 ```
 

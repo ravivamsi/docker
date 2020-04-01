@@ -1,13 +1,41 @@
 # Images 
 
-## Prune 
+## Prune
 
-## Remove 
+```terminal
+$ docker image prune
 
-## Tagging 
+or
 
+$ docker image prune -a
 
-## Inspect 
+or
+
+$ docker image prune -a -f
+```
+
+![PruneImage](./media/imageprune.svg)
+
+## Remove
+
+```terminal
+$ docker image rm <image name>
+
+or
+
+$ docker image rm <image id>
+```
+
+![RemoveImage](./media/imagerm.svg)
+
+## Tagging
+
+```terminal
+$ docker image tag <source image name:tag> <target image name:tag>
+```
+![TagImage](./media/tagimage.svg)
+
+## Inspect
 
 Inspect Details of Image
 
@@ -41,24 +69,28 @@ $ docker images -a
 ```
 $ docker images --quiet
 
-or 
+or
 
 $ docker images -q
 ```
 
 ![ListImages](./media/listimagescli.svg)
 
-## RMI 
+## Layers
 
-## Layers 
-
-### Display 
+### Display
 
 ### Modify Image to Single Layer
 
 
-## History 
+## History
 
+```
+$ docker image history <image name>
 
+or 
 
+$ docker image history <image id>
+```
 
+![ImageHistory](./media/imagehistory.svg)
