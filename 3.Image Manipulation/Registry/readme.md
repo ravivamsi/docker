@@ -1,7 +1,24 @@
 # Registry
 
 
-## Login 
+## Login and Logout
+
+```
+$ docker login
+
+or 
+
+$ docker login -u <username> -p <password>
+```
+
+
+```
+$ docker logout
+```
+
+
+![RegistryLoginAndLogout](./media/registryloginandlogout.svg)
+
 
 ## Configure Registry
 
